@@ -1,1 +1,0 @@
-/home/sanya/rust_projects/add/target/debug/adder-2784e86fa0ddf2ac: /home/sanya/rust_projects/add/add-one/src/lib.rs /home/sanya/rust_projects/add/add-two/src/lib.rs /home/sanya/rust_projects/add/adder/src/main.rs

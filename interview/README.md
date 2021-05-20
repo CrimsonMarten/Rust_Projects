@@ -1,1 +1,0 @@
-The first time a client connects to the server, send "welcome" to the client, followed by "server has read your message: {}". After that, send everything except welcome.

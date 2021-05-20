@@ -1,9 +1,5 @@
-pub fn add_two(a: i32) -> i32 {
-    internal_adder(a, 2)
-}
-
-fn internal_adder(a: i32, b: i32) -> i32 {
-    a + b
+pub fn greeting(name: &str) -> String {
+    format!("Hello")
 }
 
 #[cfg(test)]
@@ -11,7 +7,12 @@ mod tests {
     use super::*;
 
     #[test]
-    fn internal() {
-        assert_eq!(4, internal_adder(2, 2));
+    fn greeting_contains_name() {
+        let result = greeting("Carol");
+        assert!(
+            result.contains("Carol"),
+            "Greeting did not contain name, value was `{}`",
+            result
+        );
     }
 }

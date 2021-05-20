@@ -1,1 +1,0 @@
-/home/sanya/rust_projects/adder/target/debug/integration_test-c4e90cbb5956f89a: /home/sanya/rust_projects/adder/src/lib.rs /home/sanya/rust_projects/adder/tests/common/mod.rs /home/sanya/rust_projects/adder/tests/integration_test.rs
